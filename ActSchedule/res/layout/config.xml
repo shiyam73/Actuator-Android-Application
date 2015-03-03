@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wateractuatorbg" >
+    
+    <EditText android:layout_height="wrap_content"
+              android:layout_width="fill_parent" 
+              android:layout_margin="3dp" 
+              android:layout_marginTop="6dp" 
+              android:hint="Insert IP Address" 
+              android:id="@+id/editTextName">
+    </EditText>
+    
+    <EditText android:layout_height="wrap_content"
+        	  android:layout_width="fill_parent" 
+        	  android:layout_margin="3dp" 
+        	  android:hint="Insert Port no" 
+        	  android:id="@+id/editTextSurName">
+        
+    </EditText>
+    
+    <EditText android:layout_height="wrap_content"
+        	  android:layout_width="fill_parent" 
+        	  android:layout_margin="3dp" 
+        	  android:hint="Enter the time period" 
+        	  android:id="@+id/editSlp">
+        
+    </EditText>
+    
+    <Button android:id="@+id/button1" android:layout_height="wrap_content" android:text="Save" android:layout_width="fill_parent" android:layout_margin="3dp" android:onClick="save"></Button>
+    <Button android:id="@+id/button2" android:layout_height="wrap_content" android:text="Reset" android:layout_width="fill_parent" android:layout_margin="3dp" android:onClick="reset"></Button>
+</LinearLayout>

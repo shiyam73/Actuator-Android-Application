@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  <animated-rotate xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/pmeter_point_at_zero" android:pivotX="50%"
+	android:pivotY="50%" /> -->
+
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/mywatermeter2" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr10_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr20_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr30_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr40_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr50_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr60_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr70_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr80_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr90_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr100_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr110_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr120_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr130_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr140_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr150_export1" android:duration="500" />
+    <item android:drawable="@drawable/watermeterr160_export1" android:duration="500" />
+</animation-list>
